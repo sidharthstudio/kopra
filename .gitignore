@@ -1,0 +1,36 @@
+# dependencies
+node_modules
+.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
+# production
+/build
+
+# local database (customer data — never commit)
+/data/*.db
+/data/*.db-journal
+/data/*.db-wal
+/data/*.db-shm
+/data/uploads/
+
+# secrets
+.env
+.env.local
+.env.development.local
+.env.production.local
+*.pem
+
+# misc
+.DS_Store
+*.log
+npm-debug.log*
+.vercel
+/freebuff-sites-build/
+/.open-next/
+/.wrangler/
